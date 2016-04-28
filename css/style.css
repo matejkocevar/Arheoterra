@@ -17,10 +17,14 @@ body {
     background-color: #654f41;
 }
 
-div.logo{
+.logo{
     background: url(../img/logo.png) no-repeat scroll bottom center;
     height: 31px;
     width: 76px;
+}
+
+.logoText{
+    padding-left: 15px;
 }
 
 h1,
@@ -77,6 +81,7 @@ a:focus {
 
 .navbar-custom .navbar-brand {
     font-weight: 700;
+    display: inline-flex;
 }
 
 .navbar-custom .navbar-brand:focus {
