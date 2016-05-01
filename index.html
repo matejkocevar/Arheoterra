@@ -16,6 +16,8 @@
 
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -126,14 +128,65 @@
 
     <!-- Projekti Section -->
     <section id="projekti" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Projetki</h2>
-                    <p>Namesto spodnje slike galerija, ki opisuje izkušnje.</p>
-                    <a href="#" class="btn btn-default btn-lg">Testen gumb</a>
+        <h2>Projekti</h2>
+        <div class="owl-carousel">
+
+            <div class="item projekti-section" style=" background: url(img/projekti/iska.jpg); background-size: 100%;">
+                <div class="container">
+                    <div class="col-lg-8 col-lg-offset-2">
+                    </div>
                 </div>
             </div>
+
+            <div class="item projekti-section" style=" background: url(img/projekti/izola.jpg); background-size: 100%;">
+                <div class="container">
+                    <div class="col-lg-8 col-lg-offset-2">
+                    </div>
+                </div>
+            </div>
+
+            <div class="item projekti-section" style=" background: url(img/projekti/kucar.jpg); background-size: 100%;">
+                <div class="container">
+                    <div class="col-lg-8 col-lg-offset-2">
+                    </div>
+                </div>
+            </div>
+
+            <div class="item projekti-section" style=" background: url(img/projekti/maribor.jpg); background-size: 100%;">
+                <div class="container">
+                    <div class="col-lg-8 col-lg-offset-2">
+                    </div>
+                </div>
+            </div>
+
+            <div class="item projekti-section" style=" background: url(img/projekti/rucetna.jpg); background-size: 100%;">
+                <div class="container">
+                    <div class="col-lg-8 col-lg-offset-2">
+                    </div>
+                </div>
+            </div>
+
+            <div class="item projekti-section" style=" background: url(img/projekti/semic.JPG); background-size: 100%;">
+                <div class="container">
+                    <div class="col-lg-8 col-lg-offset-2">
+                    </div>
+                </div>
+            </div>
+
+            <div class="item projekti-section" style=" background: url(img/projekti/smrjene.JPG); background-size: 100%;">
+                <div class="container">
+                    <div class="col-lg-8 col-lg-offset-2">
+                    </div>
+                </div>
+            </div>
+
+            <div class="item projekti-section" style=" background: url(img/projekti/vrhpec.JPG); background-size: 100%;">
+                <div class="container">
+                    <div class="col-lg-8 col-lg-offset-2">
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -144,6 +197,7 @@
                 <h2>Novice</h2>
                 <p>Napisanih nekaj novic</p>
                 <p>Pomembne povezave za stranke</p>
+                <a href="#" class="btn btn-default btn-lg">Testen gumb</a>
             </div>
         </div>
     </section>
@@ -176,10 +230,13 @@
         <div class="container text-center">
             <p>Copyright &copy; Arheoterra 2016</p>
         </div>
+
     </footer>
+
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
@@ -192,6 +249,26 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+
+    <!-- Owl Carousel Script -->
+    <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                center: true,
+                autoPlay: 5000,
+                loop:true,
+                margin:10,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:3
+                    }
+                }
+            });
+        });
+    </script>
 
 </body>
 

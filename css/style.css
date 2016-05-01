@@ -16,16 +16,6 @@ body {
     background-color: #654f41;
 }
 
-.logo{
-    background: url(../img/logo.png) no-repeat scroll bottom center;
-    height: 31px;
-    width: 76px;
-}
-
-.logoText{
-    padding-left: 15px;
-}
-
 h1,
 h2,
 h3,
@@ -270,17 +260,6 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: #654f41 url(../img/downloads-bg.jpg) no-repeat scroll center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
 #map {
     width: 100%;
     height: 200px;
@@ -379,3 +358,47 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+.owl-dots {
+    margin-top: -50px;
+    z-index: 20;
+    position: absolute;
+    text-align: center;
+    width: auto;
+    left: 50%;
+    transform: translate3d(50%, -50%, 0px);
+}
+
+.owl-dot {
+    border: 1px solid #fff;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 999px;
+    margin: 5px;
+}
+.owl-dots .owl-dot.active, .owl-dots .owl-dot:hover {
+    background-color: #fff;
+}
+
+.logo{
+    background: url(../img/logo.png) no-repeat scroll bottom center;
+    height: 31px;
+    width: 76px;
+}
+
+.logoText{
+    padding-left: 15px;
+}
+
+.projekti-section {
+    background-size: 100%;
+    background-position: center center;
+    padding: 100px 0;
+    color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
