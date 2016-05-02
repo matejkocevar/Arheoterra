@@ -359,7 +359,7 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
-.owl-dots {
+.owl-dots { /*TODO: tezave z pozicijo*/
     margin-top: -50px;
     z-index: 20;
     position: absolute;
@@ -391,6 +391,12 @@ body {
     padding-left: 15px;
 }
 
+.lopata{
+    background: url(../img/lopata.png) no-repeat scroll bottom center;
+    height: 40px;
+    width: 16px;
+}
+
 .projekti-section {
     background-size: 100%;
     background-position: center center;
@@ -399,6 +405,11 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+}
+
+.drobniTisk{
+    font-size: 50%;
+    margin: 0;
 }
 
 
