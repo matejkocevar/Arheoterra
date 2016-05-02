@@ -397,6 +397,10 @@ body {
     width: 16px;
 }
 
+.owl-stage-outer{
+    height: 70vh;
+}
+
 .projekti-section {
     background-size: 100%;
     background-position: center center;
@@ -412,4 +416,11 @@ body {
     margin: 0;
 }
 
+.owl-theme .owl-controls {
+    margin-top: -20px;
+    text-align: center;
+}
 
+.owl-dots{
+    transform: translate3d(-45%, 0%, 0px);
+}

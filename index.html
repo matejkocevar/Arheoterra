@@ -15,9 +15,9 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -154,63 +154,14 @@
     <section id="projekti" class="content-section text-center">
         <h2>Projekti</h2>
         <div class="owl-carousel">
-
-            <div class="item projekti-section" style=" background: url(img/projekti/iska.jpg); background-size: 100%;">
-                <div class="container">
-                    <div class="col-lg-8 col-lg-offset-2">
-                    </div>
-                </div>
-            </div>
-
-            <div class="item projekti-section" style=" background: url(img/projekti/izola.JPG); background-size: 100%;">
-                <div class="container">
-                    <div class="col-lg-8 col-lg-offset-2">
-                    </div>
-                </div>
-            </div>
-
-            <div class="item projekti-section" style=" background: url(img/projekti/kucar.JPG); background-size: 100%;">
-                <div class="container">
-                    <div class="col-lg-8 col-lg-offset-2">
-                    </div>
-                </div>
-            </div>
-
-            <div class="item projekti-section" style=" background: url(img/projekti/maribor.JPG); background-size: 100%;">
-                <div class="container">
-                    <div class="col-lg-8 col-lg-offset-2">
-                    </div>
-                </div>
-            </div>
-
-            <div class="item projekti-section" style=" background: url(img/projekti/rucetna.jpg); background-size: 100%;">
-                <div class="container">
-                    <div class="col-lg-8 col-lg-offset-2">
-                    </div>
-                </div>
-            </div>
-
-            <div class="item projekti-section" style=" background: url(img/projekti/semic.JPG); background-size: 100%;">
-                <div class="container">
-                    <div class="col-lg-8 col-lg-offset-2">
-                    </div>
-                </div>
-            </div>
-
-            <div class="item projekti-section" style=" background: url(img/projekti/smrjene.JPG); background-size: 100%;">
-                <div class="container">
-                    <div class="col-lg-8 col-lg-offset-2">
-                    </div>
-                </div>
-            </div>
-
-            <div class="item projekti-section" style=" background: url(img/projekti/vrhpec.JPG); background-size: 100%;">
-                <div class="container">
-                    <div class="col-lg-8 col-lg-offset-2">
-                    </div>
-                </div>
-            </div>
-
+            <img class="owl-lazy" data-src="img/projekti/iska.jpg" alt="">
+            <img class="owl-lazy" data-src="img/projekti/izola.JPG" alt="">
+            <img class="owl-lazy" data-src="img/projekti/kucar.JPG" alt="">
+            <img class="owl-lazy" data-src="img/projekti/maribor.JPG" alt="">
+            <img class="owl-lazy" data-src="img/projekti/rucetna.jpg" alt="">
+            <img class="owl-lazy" data-src="img/projekti/semic.JPG" alt="">
+            <img class="owl-lazy" data-src="img/projekti/smrjene.JPG" alt="">
+            <img class="owl-lazy" data-src="img/projekti/vrhpec.JPG" alt="">
         </div>
     </section>
 
@@ -329,12 +280,10 @@
                 autoPlay: 5000,
                 loop:true,
                 margin:10,
-                responsive:{ /*TODO: razmisljaj o eni sliki cez cel ekran, heading znotraj*/
+                lazyLoad: true,
+                responsive:{
                     0:{
                         items:1
-                    },
-                    600:{
-                        items:3
                     }
                 }
             });
