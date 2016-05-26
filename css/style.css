@@ -394,7 +394,7 @@ body {
 .lopata{
     background: url(../img/lopata.png) no-repeat scroll bottom center;
     height: 40px;
-    width: 16px;
+    margin-top: 8px;
 }
 
 .owl-stage-outer{
