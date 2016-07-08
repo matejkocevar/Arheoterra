@@ -3,13 +3,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-/*
-*element: #43392f; rgba(67,57,47,.3);
-*ozadje: #fff
-*accent: #659a94
-*/
-
-
 html {
     width: 100%;
     height: 100%;
@@ -19,8 +12,8 @@ body {
     width: 100%;
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #43392f;
-    background-color: #fff;
+    color: #fff;
+    background-color: #654f41;
 }
 
 h1,
@@ -69,10 +62,10 @@ a:focus {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(67,57,47,.3);
+    border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #fff;
+    background-color: #654f41;
 }
 
 .navbar-custom .navbar-brand {
@@ -122,7 +115,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a {
-    background-color: rgba(67,57,47,.3);
+    background-color: rgba(255,255,255,.3);
 }
 
 .navbar-custom .nav li.active a:hover {
@@ -154,7 +147,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: #43392f url(../img/naslovna.jpg) no-repeat scroll bottom center;
+    background: #654f41 url(../img/naslovna.jpg) no-repeat scroll bottom center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -267,7 +260,28 @@ a:focus {
     padding-top: 100px;
 }
 
+#map {
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+}
 
+@media(min-width:767px) {
+    /*
+    .content-section {
+        padding-top: 250px;
+    }
+    */
+
+    .download-section {
+        padding: 100px 0;
+    }
+
+    #map {
+        height: 400px;
+        margin-top: 250px;
+    }
+}
 
 .btn {
     border-radius: 0;
@@ -315,13 +329,6 @@ ul.banner-social-buttons {
     }
 }
 
-header .scroll-down {
-    position: absolute;
-    width: 100%;
-    bottom: 38px;
-    text-align: center;
-}
-
 footer {
     padding: 50px 0;
 }
@@ -354,8 +361,26 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
-.container{
-    width: 100%;
+.owl-dots { /*TODO: tezave z pozicijo*/
+    margin-top: -50px;
+    z-index: 20;
+    position: absolute;
+    text-align: center;
+    width: auto;
+    left: 50%;
+    transform: translate3d(50%, -50%, 0px);
+}
+
+.owl-dot {
+    border: 1px solid #fff;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 999px;
+    margin: 5px;
+}
+.owl-dots .owl-dot.active, .owl-dots .owl-dot:hover {
+    background-color: #fff;
 }
 
 .logo{
@@ -374,6 +399,10 @@ body {
     margin-top: 8px;
 }
 
+.owl-stage-outer{
+    height: 70vh;
+}
+
 .projekti-section {
     background-size: 100%;
     background-position: center center;
@@ -384,13 +413,16 @@ body {
     -o-background-size: cover;
 }
 
-.highlight{
-    color: #fff;
-    background-color: #43392f;
-
-}
-
 .drobniTisk{
     font-size: 50%;
     margin: 0;
+}
+
+.owl-theme .owl-controls {
+    margin-top: -20px;
+    text-align: center;
+}
+
+.owl-dots{
+    transform: translate3d(-45%, 0%, 0px);
 }

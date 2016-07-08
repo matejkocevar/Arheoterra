@@ -6,8 +6,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content=""> <!--TODO-->
-    <meta name="author" content="@matejkocevar">
+    <meta name="description" content="">
+    <meta name="author" content="Matej Kochevar">
 
     <title>Arheoterra</title>
 
@@ -15,6 +15,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link href="css/style.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
@@ -77,13 +79,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#kdosmo">Kdo smo</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#storitve">Storitve</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#projekti">Projekti</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#opodjetju">O podjetju</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#novice">Novice</a>
@@ -104,71 +106,25 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <img src="img/logotip.png">
                         <h1 class="brand-heading">Arheoterra</h1>
                         <p class="intro-text">Izvajanje predhodnih arheoloških raziskav na območju Republike Slovenije.</p>
+                        <a href="#kdosmo" class="btn btn-circle page-scroll">
+                            <!--<i class="fa fa-angle-double-down animated"></i>-->
+                            <p class="lopata logoText"></p>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="scroll-down">
-                <a class="btn btn-circle page-scroll" href="#opodjetju" >
-                    <!--<i class="fa fa-angle-double-down animated"></i>-->
-                    <p class="lopata logoText"></p>
-                </a>
-            </div>
         </div>
-
-
     </header>
 
-    <!-- Storitve Section -->
-    <section id="storitve" class="container content-section text-center">
+    <!-- Kdo smo Section -->
+    <section id="kdosmo" class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-12 col-lg-offset-0">
-                <h2>Storitve</h2>
-                <div class="col-lg-4">
-                    <ul>
-                        <li>arheološko ovrednotenje virov, bibliografije in drugih podatkov</li>
-                        <li>daljinsko zaznavanje v arheoloških raziskavah</li>
-                        <li>arheološka topografija</li>
-                        <li>arheološki površinski pregled</li>
-                        <li>arheološki podpovršinski pregled</li>
-                    </ul>
-                </div>
-                <div class="col-lg-4">
-                    <ul>
-                        <li>arheološki strukturni pregled, stavbna analiza in čiščenje površin</li>
-                        <li>vzorčenje z vrtinami</li>
-                        <li>geofizikalni pregled</li>
-                        <li>arheološki testni izkop</li>
-                    </ul>
-
-                </div>
-                <div class="col-lg-4">
-                    <ul>
-                        <li>drugi arheološki pregledi in vzorčenja</li>
-                        <li>arheološko dokumentiranje uničenja</li>
-                        <li>arheološke raziskave ob gradnji</li>
-                        <li>arheološko izkopavanje</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projekti Section -->
-    <section id="projekti" class="content-section text-center">
-        <h2>Projekti</h2>
-        <a href="http://blackrockdigital.github.io/startbootstrap-creative/#portfolio">BAM</a>
-    </section>
-
-    <!-- O podjetju Section -->
-    <section id="opodjetju" class="highlight container content-section text-center">
-        <div class="row">
-            <div class="">
-                <h2>O podjetju</h2>
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Kdo smo</h2>
                 <p>
-                    Arheoterra d.o.o. je ponudnik celovitih storitev na področju izvajanja predhodnih arheoloških raziskav na območju Republike Slovenije.
+                    Podjetje Arheoterra d.o.o. je ponudnik celovitih storitev na področju izvajanja predhodnih arheoloških raziskav na območju Republike Slovenije.
                     Ustanovljeno je bilo leta 2009 in je od takrat samostojno ali pa skupaj s partnerjem do leta 2016 izvedlo vrsto predhodnih arheoloških raziskav.
                     Za vse izvedene raziskave smo pridobili ustrezno Kulturnovarstveno soglasje za raziskavo in odstranitev kulturne dediščine, ki ga izda Ministrstvo
                     za kulturo RS in je pogoj za izvedbo predhodne arheološke raziskave. Združujemo bogate izkušnje in profesionalno izvedbo vsake predhodne arheološke
@@ -177,6 +133,47 @@
                 <p>Direktor: Otmar Kovač, univ. dipl. arheolog</p>
 
             </div>
+        </div>
+    </section>
+
+    <!-- Storitve Section -->
+    <section id="storitve" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Storitve</h2>
+                <p>Za vas izvedemo</p>
+                <ul>
+                    <li>arheološko ovrednotenje virov, bibliografije in drugih podatkov</li>
+                    <li>daljinsko zaznavanje v arheoloških raziskavah</li>
+                    <li>arheološka topografija</li>
+                    <li>arheološki površinski pregled</li>
+                    <li>arheološki podpovršinski pregled</li>
+                    <li>arheološki strukturni pregled, stavbna analiza in čiščenje površin</li>
+                    <li>vzorčenje z vrtinami</li>
+                    <li>geofizikalni pregled</li>
+                    <li>arheološki testni izkop</li>
+                    <li>drugi arheološki pregledi in vzorčenja</li>
+                    <li>arheološko dokumentiranje uničenja</li>
+                    <li>arheološke raziskave ob gradnji</li>
+                    <li>arheološko izkopavanje</li>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projekti Section -->
+    <section id="projekti" class="content-section text-center">
+        <h2>Projekti</h2>
+        <div class="owl-carousel">
+            <img class="owl-lazy" data-src="img/projekti/iska.jpg" alt="">
+            <img class="owl-lazy" data-src="img/projekti/izola.JPG" alt="">
+            <img class="owl-lazy" data-src="img/projekti/kucar.JPG" alt="">
+            <img class="owl-lazy" data-src="img/projekti/maribor.JPG" alt="">
+            <img class="owl-lazy" data-src="img/projekti/rucetna.jpg" alt="">
+            <img class="owl-lazy" data-src="img/projekti/semic.JPG" alt="">
+            <img class="owl-lazy" data-src="img/projekti/smrjene.JPG" alt="">
+            <img class="owl-lazy" data-src="img/projekti/vrhpec.JPG" alt="">
         </div>
     </section>
 
@@ -203,8 +200,6 @@
                     Ste državljan, ki potrebuje izvedbo raziskave, občina ali pravna oseba? Vseeno! Obrnite se na nas!
                 </p>
 
-                <a href="http://blackrockdigital.github.io/startbootstrap-creative/#contact">BAM</a>
-
                 <p>
                     Naslov: <br>
                     Arheoterra d.o.o.<br>
@@ -224,6 +219,9 @@
             </div>
         </div>
     </section>
+
+    <!-- Map Section -->
+    <!--<div id="map"></div>-->
 
     <!-- Footer -->
     <footer>
@@ -264,6 +262,7 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
@@ -271,8 +270,29 @@
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
 
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+
+    <!-- Owl Carousel Script -->
+    <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                center: true,
+                autoPlay: 5000,
+                loop:true,
+                margin:10,
+                lazyLoad: true,
+                responsive:{
+                    0:{
+                        items:1
+                    }
+                }
+            });
+        });
+    </script>
 
 </body>
 
