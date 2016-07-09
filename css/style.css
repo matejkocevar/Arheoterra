@@ -6,7 +6,7 @@
 /*
 *element: #43392f; rgba(67,57,47,.3);
 *ozadje: #fff
-*accent: #659a94
+*accent: #659a94 rgba(101,154,148,.3)
 */
 
 
@@ -36,7 +36,6 @@ h5{
 }
 
 h2{
-    margin: 0 0 35px;
     font-family: 'Catamaran', sans-serif;
     font-weight: 500;
     letter-spacing: 1px;
@@ -48,6 +47,7 @@ h6{
     font-weight: 600;
     letter-spacing: 1px;
 }
+
 p {
     margin: 0 0 25px;
     font-size: 18px;
@@ -63,7 +63,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #659a94;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -75,8 +75,10 @@ a:focus {
     color: #1d9b6c;
 }
 
-.light {
-    font-weight: 400;
+hr {
+    border-color: #659a94;
+    border-width: 3px;
+    max-width: 50px;
 }
 
 .navbar-custom {
@@ -293,17 +295,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 1px solid #659a94;
+    color: #659a94;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid #659a94;
     outline: 0;
     color: #43392f;
-    background-color: #42dca3;
+    background-color: #659a94;
 }
 
 ul.banner-social-buttons {
@@ -345,14 +347,14 @@ footer p {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    background: #659a94;
+    background: rgba(101,154,148,.3);
 }
 
 ::selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    background: #659a94;
+    background: rgba(101,154,148,.3);
 }
 
 img::selection {
