@@ -54,7 +54,7 @@ p {
     line-height: 1.5;
 }
 
-@media(min-width:854px) { /*768*/
+@media (min-width: 768px) {
     p {
         margin: 0 0 35px;
         font-size: 20px;
@@ -84,7 +84,6 @@ hr {
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(67,57,47,.3);
-    text-transform: uppercase;
     font-family: 'Catamaran', sans-serif;
     background-color: #43392f;
 }
@@ -146,8 +145,14 @@ hr {
 .navbar-custom .nav li.active a:hover {
     color: #fff;
 }
+@media (min-width: 768px) {
+    .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
 
-@media(min-width:854px) { /*768*/
+@media(min-width:768px) {
     .navbar-custom {
         padding: 20px 0;
         border-bottom: 0;
@@ -192,7 +197,7 @@ hr {
     font-size: 18px;
 }
 
-@media(min-width:854px) { /*768*/
+@media(min-width:768px) {
     .intro {
         height: 100%;
         padding: 0;
@@ -247,7 +252,7 @@ hr {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -264,7 +269,7 @@ hr {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0% {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -319,18 +324,6 @@ ul.banner-social-buttons {
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         margin-top: 15px;
-    }
-}
-
-@media(max-width:800px) { /*767*/
-    ul.banner-social-buttons li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.banner-social-buttons li:last-child {
-        margin-bottom: 0;
     }
 }
 
