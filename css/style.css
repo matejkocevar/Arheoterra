@@ -54,7 +54,7 @@ p {
     line-height: 1.5;
 }
 
-@media(min-width:855px) { /*768*/
+@media(min-width:854px) { /*768*/
     p {
         margin: 0 0 35px;
         font-size: 20px;
@@ -86,7 +86,7 @@ hr {
     border-bottom: 1px solid rgba(67,57,47,.3);
     text-transform: uppercase;
     font-family: 'Catamaran', sans-serif;
-    background-color: #fff;
+    background-color: #43392f;
 }
 
 .navbar-custom .navbar-brand {
@@ -101,6 +101,10 @@ hr {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
+    color: #fff;
+}
+
+.navbar-toggle{
     color: #fff;
 }
 
@@ -143,7 +147,7 @@ hr {
     color: #fff;
 }
 
-@media(min-width:855px) { /*768*/
+@media(min-width:854px) { /*768*/
     .navbar-custom {
         padding: 20px 0;
         border-bottom: 0;
@@ -188,7 +192,7 @@ hr {
     font-size: 18px;
 }
 
-@media(min-width:855px) { /*768*/
+@media(min-width:854px) { /*768*/
     .intro {
         height: 100%;
         padding: 0;
@@ -318,7 +322,7 @@ ul.banner-social-buttons {
     }
 }
 
-@media(max-width:767px) {
+@media(max-width:800px) { /*767*/
     ul.banner-social-buttons li {
         display: block;
         margin-bottom: 20px;
@@ -421,4 +425,8 @@ body {
     margin: 1%;
     padding-left: 0;
     padding-right: 0;
+}
+
+.delay{
+    animation-delay: 0.2s;
 }
