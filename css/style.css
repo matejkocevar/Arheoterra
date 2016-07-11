@@ -36,16 +36,21 @@ h5{
 }
 
 h2{
-    font-family: 'Catamaran', sans-serif;
     font-weight: 500;
     letter-spacing: 1px;
 }
 
 h6{
-    margin: 0 0 35px;
-    font-family: 'Catamaran', sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
+}
+
+.semi-bold{
+    font-weight: 600;
+}
+
+.prosojno{
+    opacity: 0.8;
 }
 
 p {
@@ -69,12 +74,17 @@ a {
     transition: all .2s ease-in-out;
 }
 
+.neizpostavljeno{
+    color: #43392f;
+}
+
 a:hover,
 a:focus {
     text-decoration: none;
     color: #1d9b6c;
 }
 
+/*noinspection ALL*/
 hr {
     border-color: #659a94;
     border-width: 3px;
@@ -330,7 +340,6 @@ ul.banner-social-buttons {
 header .scroll-down {
     position: absolute;
     width: 100%;
-    bottom: 38px;
     text-align: center;
 }
 
@@ -371,7 +380,8 @@ body {
 }
 
 .logo{
-    width: 400px;
+    width: 40vw;
+    max-width: 400px;
     padding-bottom: 20px;
 }
 
@@ -379,6 +389,7 @@ body {
     background: url(../img/logo.png) no-repeat scroll bottom center;
     height: 31px;
     width: 76px;
+    margin-top: -6px;
 }
 
 .logoText{
@@ -400,9 +411,19 @@ body {
     background-color: #f5f5f5;
 }
 
+.accent{
+    color: #659a94;
+}
+
 .drobniTisk{
-    font-size: 70%;
+    font-size: 2px;
     margin: 0;
+}
+
+@media(min-width:768px) {
+    .drobniTisk{
+        font-size: 7px;
+    }
 }
 
 .prostor{
@@ -415,9 +436,9 @@ body {
 }
 
 .projekti-element{
-    margin: 1%;
-    padding-left: 0;
-    padding-right: 0;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
 }
 
 .delay{
