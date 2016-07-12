@@ -92,6 +92,9 @@ hr {
     border-width: 3px;
     max-width: 50px;
 }
+.endless{
+    max-width: 100%;
+}
 
 .navbar-custom {
     margin-bottom: 0;
@@ -441,6 +444,10 @@ body {
     padding-right: 0;
 }
 
+.no-margin{
+    margin: 0;
+}
+
 .projekti-element{
     padding-right: 5px;
     padding-left: 5px;
@@ -455,11 +462,26 @@ body {
     position: relative;
     background: #FFF;
     padding: 20px;
-    width:auto;
-    max-width: 500px;
+    width:80vw;
+    max-width: 670px;
     margin: 20px auto;
 }
 
 .white-popup > p{
     margin: 0 0 10px;
+}
+
+.slick-prev:before, .slick-next:before  {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 400;
+    color: #43392f; !important;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #43392f; !important;
+}
+
+.slick-slide > img{
+    width: 70vw;
+    max-width: 600px;
 }
