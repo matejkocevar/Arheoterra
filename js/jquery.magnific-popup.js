@@ -895,9 +895,9 @@
 
       closeMarkup: '<button title="%title%" type="button" class="mfp-close">&#215;</button>',
 
-      tClose: 'Close (Esc)',
+      tClose: 'Zapri (Esc)',
 
-      tLoading: 'Loading...',
+      tLoading: 'Nalaganje...',
 
       autoFocusLast: true
 
@@ -1307,7 +1307,7 @@
           img.src = item.src;
 
           // without clone() "error" event is not firing when IMG is replaced by new IMG
-          // find a way to avoid such cloning
+          // TODO: find a way to avoid such cloning
           if(el.is('img')) {
             item.img = item.img.clone();
           }
