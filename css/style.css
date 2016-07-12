@@ -182,6 +182,10 @@ hr {
     }
 }
 
+.navbar-nav {
+    text-align: right;
+}
+
 .intro {
     display: table;
     width: 100%;
