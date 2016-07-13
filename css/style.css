@@ -347,7 +347,8 @@ ul.banner-social-buttons {
 }
 
 header .scroll-down {
-    position: absolute;
+    position: relative;
+    bottom: -10vh;
     width: 100%;
     text-align: center;
 }
