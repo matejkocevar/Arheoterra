@@ -485,6 +485,21 @@ body {
     line-height: 1.5;
 }
 
+.povezave-element, .povezave-element > a > img, .povezave-napis{
+    width: 25vw;
+    padding-right: 30px;
+    padding-left: 15px;
+}
+
+.povezave-element{
+    height: 25vh;
+}
+
+.povezave-napis{
+    position: absolute;
+    bottom: 0;
+}
+
 .delay{
     animation-delay: 0.2s;
 }
