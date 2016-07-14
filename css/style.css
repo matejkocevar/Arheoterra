@@ -454,13 +454,13 @@ body {
 }
 
 .drobniTisk{
-    font-size: 2px;
+    font-size: 6px;
     margin: 0;
 }
 
 @media(min-width:768px) {
     .drobniTisk{
-        font-size: 7px;
+        font-size: 9px;
     }
 }
 
