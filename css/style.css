@@ -355,8 +355,8 @@ ul.banner-social-buttons {
 }
 
 header .scroll-down {
-    position: relative;
-    bottom: -10vh;
+    position: static;
+    bottom: 2vh;
     width: 100%;
     text-align: center;
 }
@@ -430,14 +430,16 @@ body {
 
 .lopata{
     background: url(../img/lopata.png) no-repeat scroll bottom center;
+    background-size: 17px 40px;
     height: 40px;
     margin-top: 8px;
 }
 
 .kramp{
     background: url(../img/kramp.png) no-repeat scroll bottom center;
+    background-size: 30px 34px;
     height: 40px;
-    margin-top: 5px;
+    margin-top: 3px;
     margin-left: 3px;
 }
 .rjava{

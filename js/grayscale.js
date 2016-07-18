@@ -53,8 +53,8 @@ $(document).ready(function(){
         speed: 300,
         centerMode: true,
         variableWidth: true,
-        autoplay: false,
-        autoplaySpeed: 2000
+        autoplay: true,
+        autoplaySpeed: 2000,
     });
     $('.slider-slike').slick({
         dots: true,
