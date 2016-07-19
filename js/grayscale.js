@@ -52,9 +52,23 @@ $(document).ready(function(){
         infinite: true,
         speed: 300,
         centerMode: true,
+        slidesToShow: 3,
         variableWidth: true,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    variableWidth: false,
+                    centerPadding: '0px',
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            }
+        ]
     });
     $('.slider-slike').slick({
         dots: true,
