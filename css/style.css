@@ -577,7 +577,7 @@ body {
     color: #43392f; !important;
 }
 
-.slick-slide > img{
+.slick-slide > img, .slick-slide > a > img{
     width: 70vw;
     max-width: 600px;
 }
