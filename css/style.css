@@ -525,7 +525,7 @@ body {
 }
 
 .povezave-element{
-    width: 25vw;
+    width: 10vw;
     padding-right: 30px;
     padding-left: 15px;
 }
@@ -539,11 +539,6 @@ body {
 .povezave-napis{
     bottom: 0;
     width: 100%;
-}
-@media (max-width: 768px) {
-    .povezave-napis{
-        width: 75vw;
-    }
 }
 .delay{
     animation-delay: 0.2s;
